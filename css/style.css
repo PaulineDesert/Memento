@@ -1,0 +1,67 @@
+body {
+    margin:0;
+    background-color:#efefef
+}
+.tabs
+{
+        display:inline-block;
+        cursor:pointer;
+}
+.tabs a
+{
+        color:#ffffff;
+        text-decoration:none;
+        font-size: 2rem;
+        font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inactivTab
+{
+        background:#1a4867;
+        border-bottom:1px solid black;
+        display: inline-block;
+        width:15vw;
+        text-align: center;
+}
+.activTab
+{
+        background:#61a4cb;
+        border-bottom:0px solid black;
+        padding-bottom:4px;
+        display: inline-block;
+        width:15vw;
+        height:5vh;
+        text-align: center;
+}
+.content
+{
+        margin-top:3vh;
+        margin-left:3vh;
+        padding:5px;
+}
+ul
+{
+        margin-top:0px;
+        margin-bottom:0px;
+        margin-left:-10px
+}
+h1
+{
+        margin:0px;
+        padding:0px;
+        font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul p {
+    margin-top:25px;
+    margin-bottom:15px;
+    font-size:1.2rem;
+    text-transform: uppercase;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    margin:0;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+li {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem
+}

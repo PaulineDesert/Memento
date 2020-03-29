@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Memento</title>
+    <link rel="shortcut icon" href="img/favicon.png"/>
+</head>
+
+<body>
+    <div class="tabs_html">
+        <div class="tabs">
+            <a href="index.html" class="activTab" title="Git">Git</a>
+            <a href="tabs/html.html" class="inactivTab" title="HTML / CSS">HTML /CSS</a>
+            <a href="tabs/lexique.html" class="inactivTab" title="Lexique">Lexique</a>
+            <a href="tabs/liens.html" class="inactivTab" title="Liens utiles">Liens utiles</a>
+        </div>
+        <div class="content">
+            <h1>Git</h1>
+            <p>Il est important de <strong>versionner</strong> son travail afin de sauvegarder les différents états du projet.</p>
+            <p>Chaque copie est remplacé par un <strong>commit</strong>.</p>
+            <ul>
+                <p>Commandes Git</p>
+                <li>Lancer <b>Git Bash</b> en local</li>
+                <li><b>Git init :</b> crée le dossier en local</li>
+                <li><b>git remote add origin http://url :</b>Relie le <strong>repository</strong> distant au local</li>
+                <li><b>Git remote add -v :</b> vérifie les remotes ajoutées</li>
+                <li><b>touch index.html :</b> crée un fichier index.html</li>
+                <li><b>code index.html :</b> édite le fichier index.html</li>
+                <li><b>git status :</b> vérifie que les MAJ sont bien enregistrées</li>
+                <li><b>git add index.html :</b> track le fichier index.html</li>
+                <li><b>git add --a :</b> track tous les fichiers présents dans le dossier</li>
+                <li><b>git commit -m "détail de la MAJ effectuée" :</b> crée un commit du ou des fichier(s) -> <strong>jalonnage</strong></li>
+                <li><b>git commit -am "détail de la MAJ effectuée" :</b> track le ou les fichier(s) et crée un commit</li>
+                <li><b>git log :</b> vérifie les commits</li>
+                <li><b>git push origin master :</b> ajoute le travail sur le repo distant</li>
+                <li><b>git clone http://url :</b> clone le repo distant</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
