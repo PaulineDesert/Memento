@@ -65,3 +65,11 @@ li {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 0.9rem
 }
+.subtitle {
+    margin-top:25px;
+    margin-bottom:15px;
+    margin-left:30px;
+    font-size:1.2rem;
+    text-transform: uppercase;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
